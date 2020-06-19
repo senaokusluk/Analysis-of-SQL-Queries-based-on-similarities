@@ -1,0 +1,21 @@
+TFIDF Kume 2
+select row number over order by desc from where lower like lower order by desc
+select row number over order by desc from where lower like and order by desc
+select top from order by desc
+select row number over order by desc from where lower like lower order by desc
+select row number over order by desc from where lower like or upper like order by desc
+select top from where like order by desc
+select top from where order by desc
+select top from order by desc
+select from where not like and like or like or like order by desc
+select top from order by desc
+select top row number over order by desc from where lower like or upper like order by desc
+select top from where lower like or upper like or like or lower like or upper like or like order by desc
+select from where order by desc
+select top row number over order by desc from where lower like or upper like or like and order by desc
+select row number over order by desc from where lower like or upper like order by desc
+select row number over order by desc from where lower like or lower like or lower like or lower like or lower like or lower like or lower like order by desc
+select row number over order by desc from where and and and and lower like lower order by desc
+select top row number over order by desc from where lower like order by desc
+select top row number over order by desc from where lower like or upper like order by desc
+select top from order by desc
