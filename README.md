@@ -11,40 +11,22 @@ The Graduating Project we completed with a team of two includes analysis of SQL 
 We accepted thousands of SQL query strings, which we wrote and which were found from certain sources, as Text. 
 And applied '[Data Processing](https://github.com/senaokusluk/Analysis-of-SQL-Queries-based-on-similarities/blob/master/Tez%20Projesi/Tez%20Projesi/asil_onisleme.py)' to these Textual data.
 
-![uncleaned data](image/uncleaned_data.png) 
-
-*Uncleaned Data*
-
-![cleaned data](image/cleaned_data.png)
-
-*Cleaned Data*
+![clean data](image/1clean_data.png)
 
 >**NLP Approaches and Clustering**
 
 The data were converted into numerical data with [Bag of Words (BoW)](https://github.com/senaokusluk/Analysis-of-SQL-Queries-based-on-similarities/blob/master/Tez%20Projesi/Tez%20Projesi/bow_kume_bilgi.py) and [TF-IDF](https://github.com/mertcankarakaya/Analysis-of-SQL-queries-based-on-similarities/blob/master/tfidf_kume_bilgi.py), which is one of the Natural Language Processing methods.
 Clustering was carried out by [k-Means algorithm](https://github.com/senaokusluk/Analysis-of-SQL-Queries-based-on-similarities/blob/master/Tez%20Projesi/Tez%20Projesi/kumeleme.py) of Machine Learning. 
 
-![bow pca](image/bow_pca.png)
+![numerical data](image/2numerical_data.png)
 
-*BoW Data*
-
-![bow clustered](image/bow_clustered.png)
-
-*BoW Clustered*
-
-![tifidf pca](image/tfidf_pca.png)
-
-*TF-IDF Data*
-
-![tifidf clustered](image/tfidf_clustered.png)
-
-*TF-IDF Clustered*
+![clustered data](image/3clustered_data.png)
 
 >**Cluster number decision**
 
 It was deemed appropriate to divide it into 5 clusters using the [WCSS (In-Squares Total)](https://github.com/senaokusluk/Analysis-of-SQL-Queries-based-on-similarities/blob/master/Tez%20Projesi/Tez%20Projesi/wcss_hesaplama.py) method.
 
-![wcss](image/wcss.png)
+![wcss](image/4wcss.png)
 
 *Result of WCSS*
 
